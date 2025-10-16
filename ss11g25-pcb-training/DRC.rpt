@@ -1,0 +1,26 @@
+** Drc report for ss11g25-pcb-training.kicad_pcb **
+** Created on 2025-10-16T13:49:01+0100 **
+
+** Found 3 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(100.5000 mm, 56.3500 mm): Pad [<no net>] of U2 on F.Cu
+    @(100.5000 mm, 56.3500 mm): Pad TP [GNDREF] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(100.5000 mm, 56.3500 mm): Pad TP [GNDREF] of U2 on F.Cu
+    @(100.5000 mm, 56.3500 mm): Pad [<no net>] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(99.1450 mm, 54.6500 mm): Rectangle of U2 on F.Mask
+    @(100.5000 mm, 56.3500 mm): Pad [<no net>] of U2 on F.Cu
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.5000 mm, 56.3500 mm): Pad TP [GNDREF] of U2 on F.Cu
+    @(97.8000 mm, 54.4500 mm): Track [GNDREF] on F.Cu, length 0.1805 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **
