@@ -1,2 +1,1 @@
-Annotation complete.
-Annotation complete.
+Changed footprint U2 from 'SUFST:LMR33630CDDA' to 'SUFST:LMR33630CDDA': : OK
